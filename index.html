@@ -370,6 +370,7 @@
 <script>
   $(function () {
     var $up = $('#upButton');
+	if ($.fn.scrolly) $up.scrolly(); //fyrir smooth scroll
     var $verkefni = $('#verkefni');
 
     // Velur verkefna-takkana (þína núverandi)
