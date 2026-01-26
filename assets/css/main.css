@@ -2176,7 +2176,7 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		background-image: url("../../images/header.jpg");
+		background-image: url("../../images/MAINmynd1.JPG");
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
@@ -3162,4 +3162,12 @@ input, select, textarea {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   white-space: pre;       /* tryggir að formatting haldist */
   color: #111;
+}
+
+code{
+  background: #f2f2f2;
+  border-radius: 6px;
+  padding: 0.15rem 0.4rem;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 0.95em;
 }
