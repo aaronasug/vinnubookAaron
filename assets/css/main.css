@@ -3136,3 +3136,30 @@ input, select, textarea {
 					}
 
 	}
+	/* fyrir skjaskot og myndir */
+.screenshot{
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 1rem auto;
+}
+
+.screenshot.medium { max-width: 600px; }
+.screenshot.small  { max-width: 350px; }
+
+/* ===== Code block style ===== */
+.code-block{
+  background: #f5f5f5;
+  border-radius: 10px;
+  padding: 1rem 1.25rem;
+  overflow-x: auto;       /* ef línur eru langar */
+  margin: 1rem 0;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+.code-block code{
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  white-space: pre;       /* tryggir að formatting haldist */
+  color: #111;
+}
