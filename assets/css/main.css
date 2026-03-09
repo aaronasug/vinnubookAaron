@@ -3195,3 +3195,14 @@ code{
   background: #e7f7ea;        /* ljósgrænn */
   border: 1px solid #c8eccf;  /* léttur rammi */
 }
+
+.img-caption{
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.img-caption figcaption{
+  font-size: 0.9rem;
+  opacity: 0.8;
+  margin-top: 0.5rem;
+}
